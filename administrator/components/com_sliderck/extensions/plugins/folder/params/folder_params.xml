@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="editionfieldset" label="" addfieldpath="/plugins/sliderck/folder/elements">
+			<field
+				name="fromfoldername"
+				type="ckslidesfromfolderimport"
+				label="SLIDERCK_FOLDER_FROMFOLDERNAME_LABEL"
+				description="SLIDERCK_FOLDER_FROMFOLDERNAME_DESC"
+				default="media/com_sliderck/images/slides"
+				icon="folder_explore.png"
+				showon="source:slidesmanager"
+			/>
+			<field
+				name="slidesfromfolder"
+				type="ckslidesfromfoldermanager"
+				label="SLIDERCK_FOLDER_SLIDES_LABEL"
+				description="SLIDERCK_FOLDER_SLIDES_DESC"
+				default="[]"
+				showon="source:slidesmanager"
+			/>
+			<field
+				name="spacerfolderautoload"
+				type="sliderspacer"
+				style="title"
+				label="SLIDERCK_FOLDER_SPACERFOLDERAUTOLOAD_LABEL"
+				showon="source:folder"
+			/>
+			<field
+				name="folderautoload_doc"
+				type="ckdocumentation"
+				url="https://www.joomlack.fr/en/documentation/48-slider-ck/243-load-your-slides-from-a-folder-in-slideshow"
+				showon="source:folder"
+			/>
+			<field
+				name="autoloadfoldername"
+				type="ckfolder"
+				label="SLIDERCK_FOLDER_AUTOLOADFOLDERNAME_LABEL"
+				description="SLIDERCK_FOLDER_AUTOLOADFOLDERNAME_DESC"
+				default="media/com_sliderck/images/slides"
+				icon="folder_explore.png"
+				showon="source:folder"
+			/>
+			<field
+				name="spacerfolderimportckproonly"
+				type="hidden"
+			/>
+		</fieldset>
+	</fields>
+</form>

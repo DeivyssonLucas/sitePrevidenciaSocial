@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>System - Slider CK</name>
+	<author>Cédric KEIFLIN</author>
+	<creationDate>April 2019</creationDate>
+	<copyright>Cédric KEIFLIN</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html</license>
+	<authorEmail>ced1870@gmail.com</authorEmail>
+	<authorUrl>https://www.joomlack.fr</authorUrl>
+	<version>2.3.0</version>
+	<description>PLG_SLIDERCK_PARAMS_DESC</description>
+	<files>
+		<folder>language</folder>
+		<filename>index.html</filename>
+		<filename plugin="sliderck">sliderck.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_sliderck.sys.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_sliderck.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.plg_system_sliderck.sys.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.plg_system_sliderck.ini</language>
+	</languages>
+</extension>
